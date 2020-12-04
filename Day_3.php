@@ -1,5 +1,17 @@
 <?php
+/*
+https://adventofcode.com/2020/day/3
 
+
+If link is dead...
+
+Basically this test is to check how many "trees" you run into if you move x across and y down per iteration.
+Trees are indicated by hashtags (#) in the massive string below, the "forrest" is duplicated horizontally,
+so if you run out of space to move right, you just take the same one again.
+
+I built the collision method before registering and didn't get the string until I finished,
+that's why I bothered with the conversion.
+*/
 /*function map()
 {
     $height = 11;
